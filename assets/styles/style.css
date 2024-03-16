@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -252,6 +253,29 @@ body,html{
     font-size: 16px;
     color: #18191F;
 }
+.counts__icons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.icons__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons__top .members{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.icons__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons__bottom .members{
+    width: 40%;
+}
 .counts__icons .members{
     max-width: 45%;
     display: flex;
@@ -295,6 +319,11 @@ body,html{
 .tsl__content .tsl__subtitle{
     font-size: 16px;
 }
+.tsl__icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .name{
     margin-top: 16px;
     max-width: 64%;
@@ -319,6 +348,7 @@ body,html{
     font-weight: 600;
     color: var(--green-color);
     max-width: 223px;
+    opacity: 20%;
 }
 .caring{
     margin-top: 48px;
@@ -351,7 +381,7 @@ body,html{
     justify-content: space-between;
     margin-top: 206px;
 }
-.card__read{
+.marketing__card .card__read{
     width: 27%;
     background-color: var(--secondary-background-color);
     border-radius: 8px;
@@ -362,7 +392,8 @@ body,html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 32px 32px;
+    padding: 32px ;
+    word-break: break-all;
 }
 .card__word{
     font-size: 20px;
